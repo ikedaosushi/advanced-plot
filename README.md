@@ -1,7 +1,13 @@
 # advanced-plot
 A practical wrapper library over matplotlib and seaborn
 
-# Example data 
+# Install
+
+```
+pip install advanced-plot
+```
+
+# Example data
 
 ```python
 import seaborn as sns
