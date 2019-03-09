@@ -24,6 +24,7 @@ def stack_vertical_bar(data: pd.DataFrame, label: str, value: str, ax=None, font
     ax.grid(False)
     ax.set_xlim(0, 1)
     ax.tick_params(axis='both', bottom=False, left=False, labelbottom=False, labelleft=False)
+    ax.set_facecolor('white')
     [spine.set_visible(False) for spine in ax.spines.values()]
 
     return ax

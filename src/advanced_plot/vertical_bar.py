@@ -28,5 +28,6 @@ def vertical_bar(data: pd.DataFrame, label: str, value: str, ax=None, ratio=True
     [spine.set_visible(False) for spine in ax.spines.values()]
     ax.tick_params(bottom=False, left=False, labelbottom=False)
     ax.tick_params(axis='y', labelsize='x-large')
+    ax.set_facecolor('white')
 
     return ax

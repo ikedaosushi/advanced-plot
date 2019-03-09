@@ -21,3 +21,4 @@ Median: {median}
 Mode: {mode}"""
 
     ax.text( 0.99, 0.99, text, ha='right', va='top', transform=ax.transAxes, fontsize=fontsize)
+    ax.set_facecolor('white')
