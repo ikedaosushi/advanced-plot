@@ -29,6 +29,8 @@ data
 advanced_plot.stack_vertical_bar(data=data, label='index', value='class')
 ```
 
+![Stack vertical bar](https://github.com/ikedaosushi/advanced-plot/blob/master/assets/stack_vertical_bar.png)
+
 # Vertical bar
 
 ## data
@@ -50,6 +52,8 @@ data
 advanced_plot.vertical_bar(data=data, label="index", value="class")
 ```
 
+![Vertical bar](https://github.com/ikedaosushi/advanced-plot/blob/master/assets/vertical_bar.png?raw=true)
+
 # Histgram
 
 ## data
@@ -63,3 +67,5 @@ titanic['age']
 ```python
 advanced_plot.hist(data = titanic['age'].dropna())
 ```
+
+![Histgram](https://github.com/ikedaosushi/advanced-plot/blob/master/assets/advanced_hist.png)
